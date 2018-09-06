@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:2:1-13:12
+MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:2:1-16:12
+MERGED from [com.thefinestartist:finestwebview:1.2.7] /home/ismummy/.gradle/caches/transforms-1/files-1.1/finestwebview-1.2.7.aar/8838b3e82483994caf7153858d7613ac/AndroidManifest.xml:2:1-12:12
+MERGED from [com.thefinestartist:utils:0.9.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/utils-0.9.0.aar/7c3e9db9ce97c70986b8303e653acbae/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a3e16cea3651765a5dfb2d5d878df7f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f5666c981b357aee38dd43b5465f9cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ismummy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d7c321c980d23d4ee4006259e545c692/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95338ab166350039c3416896a3a28b03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/80d46a93d78375455aff421b76186f56/AndroidManifest.xml:2:1-7:12
+MERGED from [net.steamcrafted:materialiconlib:1.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/materialiconlib-1.1.4.aar/079d7ef71f79a353e73715ab6a93588e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/badf4b6c285b391e74db97d89f38c55a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/952c6981a745156c880ce57099b30bde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f2ad7a0ab36325f420034c5c05d62eff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b72bbb1b0c1d7d0f833fad4282f3e7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/dfab10537fea734123581f3850ebeec2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a2dec072f4d6783b4b1f206c1e6ac7e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9edc7640e75e043ff32639cc9151725f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7bfaf38db64947b1e3ca8ffcbe2eccef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7e7549448a8a8e58c97961397b3dfc4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/525c4aa8c1df751e88a7b840d2da2fa8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/64fdb4b8aaaa1d83d15af33fd6b5d617/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e157e3b06c41524ae88644a877cdfd80/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2944af2240227e0e13c8ec85254aaf87/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:8:5-36:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:11:5-20
+MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:11:5-14:19
+MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ismummy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d7c321c980d23d4ee4006259e545c692/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ismummy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d7c321c980d23d4ee4006259e545c692/AndroidManifest.xml:9:5-20
+MERGED from [net.steamcrafted:materialiconlib:1.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/materialiconlib-1.1.4.aar/079d7ef71f79a353e73715ab6a93588e/AndroidManifest.xml:11:5-12:19
+MERGED from [net.steamcrafted:materialiconlib:1.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/materialiconlib-1.1.4.aar/079d7ef71f79a353e73715ab6a93588e/AndroidManifest.xml:11:5-12:19
+	android:supportsRtl
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:9:9-43
+activity#ismummy.me.onibara.ui.activities.SplashScreen
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:18:13-49
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:17:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:23:27-74
+activity#ismummy.me.onibara.ui.activities.MainActivity
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:26:9-29:59
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:27:13-55
+activity#com.thefinestartist.finestwebview.FinestWebViewActivity
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:30:9-34:55
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:31:13-83
+uses-sdk
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:7:5-9:41
+MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:7:5-9:41
+MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:7:5-9:41
+MERGED from [com.thefinestartist:finestwebview:1.2.7] /home/ismummy/.gradle/caches/transforms-1/files-1.1/finestwebview-1.2.7.aar/8838b3e82483994caf7153858d7613ac/AndroidManifest.xml:8:5-10:41
+MERGED from [com.thefinestartist:finestwebview:1.2.7] /home/ismummy/.gradle/caches/transforms-1/files-1.1/finestwebview-1.2.7.aar/8838b3e82483994caf7153858d7613ac/AndroidManifest.xml:8:5-10:41
+MERGED from [com.thefinestartist:utils:0.9.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/utils-0.9.0.aar/7c3e9db9ce97c70986b8303e653acbae/AndroidManifest.xml:8:5-10:41
+MERGED from [com.thefinestartist:utils:0.9.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/utils-0.9.0.aar/7c3e9db9ce97c70986b8303e653acbae/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a3e16cea3651765a5dfb2d5d878df7f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a3e16cea3651765a5dfb2d5d878df7f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f5666c981b357aee38dd43b5465f9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f5666c981b357aee38dd43b5465f9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ismummy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d7c321c980d23d4ee4006259e545c692/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ismummy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/d7c321c980d23d4ee4006259e545c692/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95338ab166350039c3416896a3a28b03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95338ab166350039c3416896a3a28b03/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/80d46a93d78375455aff421b76186f56/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/80d46a93d78375455aff421b76186f56/AndroidManifest.xml:5:5-43
+MERGED from [net.steamcrafted:materialiconlib:1.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/materialiconlib-1.1.4.aar/079d7ef71f79a353e73715ab6a93588e/AndroidManifest.xml:7:5-9:41
+MERGED from [net.steamcrafted:materialiconlib:1.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/materialiconlib-1.1.4.aar/079d7ef71f79a353e73715ab6a93588e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/badf4b6c285b391e74db97d89f38c55a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/badf4b6c285b391e74db97d89f38c55a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/952c6981a745156c880ce57099b30bde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/952c6981a745156c880ce57099b30bde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f2ad7a0ab36325f420034c5c05d62eff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f2ad7a0ab36325f420034c5c05d62eff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b72bbb1b0c1d7d0f833fad4282f3e7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4b72bbb1b0c1d7d0f833fad4282f3e7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/dfab10537fea734123581f3850ebeec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/dfab10537fea734123581f3850ebeec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a2dec072f4d6783b4b1f206c1e6ac7e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/a2dec072f4d6783b4b1f206c1e6ac7e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9edc7640e75e043ff32639cc9151725f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9edc7640e75e043ff32639cc9151725f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7bfaf38db64947b1e3ca8ffcbe2eccef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7bfaf38db64947b1e3ca8ffcbe2eccef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7e7549448a8a8e58c97961397b3dfc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/ismummy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7e7549448a8a8e58c97961397b3dfc4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/525c4aa8c1df751e88a7b840d2da2fa8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/525c4aa8c1df751e88a7b840d2da2fa8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/64fdb4b8aaaa1d83d15af33fd6b5d617/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/64fdb4b8aaaa1d83d15af33fd6b5d617/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e157e3b06c41524ae88644a877cdfd80/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e157e3b06c41524ae88644a877cdfd80/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2944af2240227e0e13c8ec85254aaf87/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2944af2240227e0e13c8ec85254aaf87/AndroidManifest.xml:20:5-44
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml

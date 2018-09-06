@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ismummy/AndroidStudioProjects/Onibara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/ismummy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f5666c981b357aee38dd43b5465f9cd/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/ismummy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/a3e16cea3651765a5dfb2d5d878df7f1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "416",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "593"
+                    }
+                },
+                {
+                    "source": "/home/ismummy/.gradle/caches/transforms-1/files-1.1/finestwebview-1.2.7.aar/8838b3e82483994caf7153858d7613ac/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,98",
+                        "endColumns": "42,44",
+                        "endOffsets": "93,138"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "328,371",
+                        "endColumns": "42,44",
+                        "endOffsets": "366,411"
+                    }
+                }
+            ]
+        }
+    ]
+}

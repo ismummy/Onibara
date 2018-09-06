@@ -1,0 +1,4 @@
+#Thu Sep 06 13:12:56 WAT 2018
+base.0=/home/ismummy/AndroidStudioProjects/Onibara/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
