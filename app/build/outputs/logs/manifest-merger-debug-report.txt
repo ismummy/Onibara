@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:2:1-13:12
 MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:2:1-16:12
 MERGED from [com.thefinestartist:finestwebview:1.2.7] /home/ismummy/.gradle/caches/transforms-1/files-1.1/finestwebview-1.2.7.aar/8838b3e82483994caf7153858d7613ac/AndroidManifest.xml:2:1-12:12
@@ -27,20 +27,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ismummy/.gradle/c
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/64fdb4b8aaaa1d83d15af33fd6b5d617/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e157e3b06c41524ae88644a877cdfd80/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2944af2240227e0e13c8ec85254aaf87/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
-		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
-		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:2:11-69
@@ -53,7 +53,7 @@ ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:8:5-36:19
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:8:5-45:19
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:11:5-20
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/ismummy/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/5d34b73c8378190ebdc2062fc38bb548/AndroidManifest.xml:11:5-20
 MERGED from [com.synnapps:carouselview:0.1.4] /home/ismummy/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/e613cc973be97b269deb0707eaf07871/AndroidManifest.xml:11:5-14:19
@@ -112,6 +112,30 @@ ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManif
 		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:34:13-52
 	android:name
 		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:31:13-83
+activity#ismummy.me.onibara.ui.activities.ProductActivity
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:35:9-38:59
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:37:13-49
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:36:13-58
+activity#ismummy.me.onibara.ui.activities.SearchActivity
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:39:9-41:59
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:40:13-49
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:39:19-63
+activity#ismummy.me.onibara.ui.activities.ProductViewActivity
+ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:42:9-44:59
+	android:screenOrientation
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:43:13-49
+	android:theme
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml:42:19-68
 uses-sdk
 INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ismummy/AndroidStudioProjects/Onibara/app/src/main/AndroidManifest.xml

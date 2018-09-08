@@ -5,6 +5,7 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
 import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
 import com.synnapps.carouselview.CarouselView;
 import ismummy.me.onibara.R;
@@ -14,11 +15,22 @@ import java.lang.Override;
 public class SliderViewHolders_ViewBinding implements Unbinder {
   private SliderViewHolders target;
 
+  private View view2131231128;
+
   @UiThread
-  public SliderViewHolders_ViewBinding(SliderViewHolders target, View source) {
+  public SliderViewHolders_ViewBinding(final SliderViewHolders target, View source) {
     this.target = target;
 
-    target.carouselView = Utils.findRequiredViewAsType(source, R.id.carouselView, "field 'carouselView'", CarouselView.class);
+    View view;
+    view = Utils.findRequiredView(source, R.id.carouselView, "field 'carouselView' and method 'sliderClick'");
+    target.carouselView = Utils.castView(view, R.id.carouselView, "field 'carouselView'", CarouselView.class);
+    view2131231128 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.sliderClick();
+      }
+    });
   }
 
   @Override
@@ -29,5 +41,8 @@ public class SliderViewHolders_ViewBinding implements Unbinder {
     this.target = null;
 
     target.carouselView = null;
+
+    view2131231128.setOnClickListener(null);
+    view2131231128 = null;
   }
 }

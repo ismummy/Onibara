@@ -1,9 +1,9 @@
 package ismummy.me.onibara.ui.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +15,7 @@ import ismummy.me.onibara.R;
 import ismummy.me.onibara.listeners.CustomItemClickListener;
 import ismummy.me.onibara.models.Store;
 import ismummy.me.onibara.ui.MainApplication;
+import ismummy.me.onibara.ui.activities.ProductActivity;
 import ismummy.me.onibara.ui.viewholders.DealViewHolders;
 import ismummy.me.onibara.ui.viewholders.SliderViewHolders;
 import ismummy.me.onibara.ui.viewholders.StoreViewHolders;
@@ -85,7 +86,7 @@ public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             return TYPE_DEAL;
         } else if (position == 2) {
             return TYPE_STORES;
-        }else
+        } else
             return 1;
     }
 
@@ -107,22 +108,17 @@ public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         int spanCount = 2; // 3 columns
         int spacing = 10; // 50px
         holder.recyclerView.addItemDecoration(new GridSpacingItemDecoration(spanCount, spacing, true));
-        HomeStoreAdapter adapter = new HomeStoreAdapter(stores, suggestionListener);
+        HomeStoreAdapter adapter = new HomeStoreAdapter(stores, storeListener);
         holder.recyclerView.setHasFixedSize(true);
         holder.recyclerView.setAdapter(adapter);
     }
 
-    CustomItemClickListener storyListener = new CustomItemClickListener() {
+    CustomItemClickListener storeListener = new CustomItemClickListener() {
         @Override
         public void onItemClick(View v, int position) {
-
-        }
-    };
-
-    CustomItemClickListener suggestionListener = new CustomItemClickListener() {
-        @Override
-        public void onItemClick(View v, int position) {
-
+            Intent intent = new Intent(MainApplication.getInstance(), ProductActivity.class);
+            intent.putExtra("title", stores.get(position).getTitle());
+            MainApplication.getInstance().startActivity(intent);
         }
     };
 }

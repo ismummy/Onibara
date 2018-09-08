@@ -8,7 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import butterknife.OnClick;
 import ismummy.me.onibara.R;
+import ismummy.me.onibara.ui.activities.MainActivity;
 import ismummy.me.onibara.ui.base.BaseFragment;
 
 
@@ -35,5 +37,10 @@ public class SavedFragment extends BaseFragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_saved, container, false);
+    }
+
+    @OnClick(R.id.btn_continue_shopping)
+    void continueShoppingClicked() {
+        ((MainActivity) getActivity()).setViewPagerIndex(0);
     }
 }

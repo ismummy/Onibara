@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_phones_store"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/white"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/phone_icon" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/iv_icon"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/phones_tablets"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_toEndOf="@id/iv_icon"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/all"
+        android:textColor="@color/Color_Red" />
+
+
+</RelativeLayout>

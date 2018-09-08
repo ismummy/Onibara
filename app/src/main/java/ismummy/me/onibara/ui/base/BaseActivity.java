@@ -70,6 +70,20 @@ public abstract class BaseActivity extends AppCompatActivity {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
+    protected void toastNetwork() {
+        if (!isOn || isFinishing())
+            return;
+        Toast.makeText(this, "Check your internet connection and Try again!!!",
+                Toast.LENGTH_LONG).show();
+    }
+    protected void toastConnectionFailure() {
+        if (!isOn || isFinishing())
+            return;
+
+        Toast.makeText(this, "Error response from remote server. Please retry!!!",
+                Toast.LENGTH_LONG).show();
+    }
+
     protected void openInternalWebView(String endPoint){
         new FinestWebView.Builder(this).show(endPoint);
     }

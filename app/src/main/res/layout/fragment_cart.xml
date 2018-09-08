@@ -8,32 +8,64 @@
     android:orientation="vertical"
     tools:context=".ui.fragments.CartFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        style="@style/BoldText"
+    <LinearLayout
+        android:id="@+id/layout_no_cart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/you_have_no_items_in_the_cart"
-        android:textAlignment="center" />
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            style="@style/BoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/you_have_no_items_in_the_cart"
+            android:textAlignment="center" />
 
-    <net.steamcrafted.materialiconlib.MaterialIconView
-        android:id="@+id/search"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:padding="8dp"
-        app:materialIcon="cart"
-        app:materialIconColor="@color/divider" />
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:id="@+id/search"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            app:materialIcon="cart"
+            app:materialIconColor="@color/divider" />
 
-    <Button
-        android:id="@+id/btn_continue_shopping"
-        style="@style/BoldText"
+        <Button
+            android:id="@+id/btn_continue_shopping"
+            style="@style/BoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"
+            android:text="@string/continue_shopping"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/layout_cart"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:background="@color/colorAccent"
-        android:text="@string/continue_shopping"
-        android:textColor="@color/white" />
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_checkout"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/btn_checkout"
+            style="@style/BoldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"
+            android:text="Checkout"
+            android:textColor="@color/white" />
+    </RelativeLayout>
 </LinearLayout>

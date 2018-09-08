@@ -3,8 +3,8 @@
     <color name="colorPrimary">#000011</color>
     <color name="colorPrimaryDark">#242429</color>
     <color name="colorAccent">#f5ab35</color>
-    <color name="white">#fff</color>
-    <color name="bg">#778</color>
+    <color name="white">#ffffff</color>
+    <color name="bg">#f1f1f1</color>
     <color name="divider">#80B6B6B6</color>
     <color name="textColorPrimary">#212121</color>
     <color name="transparent">#99000000</color>

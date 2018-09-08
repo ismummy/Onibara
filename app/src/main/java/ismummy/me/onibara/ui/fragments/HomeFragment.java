@@ -16,6 +16,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import ismummy.me.onibara.R;
 import ismummy.me.onibara.core.EndPoints;
+import ismummy.me.onibara.core.MemoryManager;
 import ismummy.me.onibara.listeners.EndlessRecyclerviewScroll;
 import ismummy.me.onibara.models.Store;
 import ismummy.me.onibara.ui.adapters.HomeAdapter;
@@ -29,9 +30,6 @@ public class HomeFragment extends BaseFragment {
 
     @BindView(R.id.rv_home)
     RecyclerView recyclerView;
-
-    private HomeAdapter adapter;
-    private ArrayList<Store> stores;
 
     public static HomeFragment newInstance(){
         return  new HomeFragment();
@@ -55,23 +53,14 @@ public class HomeFragment extends BaseFragment {
     }
 
     void setRecyclerView() {
-        stores = new ArrayList<>();
-        for(int i=0; i<10; i++){
-            arrayList.add(new Store());
-        }
+        ArrayList<Store> stores = MemoryManager.getInstance().getStore();
 
-        adapter = new HomeAdapter(arrayList);
+        HomeAdapter adapter = new HomeAdapter(stores);
         LinearLayoutManager manager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
-        EndlessRecyclerviewScroll recyclerviewScroll = new EndlessRecyclerviewScroll(manager) {
-            @Override
-            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
-                toast(page + " hey");
-            }
-        };
-        recyclerView.addOnScrollListener(recyclerviewScroll);
     }
+
 
    /* @OnClick(R.id.iv_banner)
     void bannerClicked(){

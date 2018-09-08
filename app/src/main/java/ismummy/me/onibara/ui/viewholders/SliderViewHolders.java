@@ -1,5 +1,6 @@
 package ismummy.me.onibara.ui.viewholders;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -9,7 +10,10 @@ import com.synnapps.carouselview.ImageListener;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import ismummy.me.onibara.R;
+import ismummy.me.onibara.ui.MainApplication;
+import ismummy.me.onibara.ui.activities.ProductActivity;
 
 public class SliderViewHolders extends RecyclerView.ViewHolder {
     @BindView(R.id.carouselView)
@@ -32,4 +36,11 @@ public class SliderViewHolders extends RecyclerView.ViewHolder {
         carouselView.setImageListener(imageListener);
     }
 
+    @OnClick(R.id.carouselView)
+    void sliderClick()
+    {
+        Intent intent = new Intent(MainApplication.getInstance(), ProductActivity.class);
+        intent.putExtra("title", "Deals");
+        MainApplication.getInstance().startActivity(intent);
+    }
 }

@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,6 +40,18 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Webview" />
+        <activity
+            android:name="ismummy.me.onibara.ui.activities.ProductActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ismummy.me.onibara.ui.activities.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ismummy.me.onibara.ui.activities.ProductViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

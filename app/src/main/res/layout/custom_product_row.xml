@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <net.steamcrafted.materialiconlib.MaterialIconView
+        android:id="@+id/miv_add_to_cart"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="end"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:materialIcon="cart_plus"
+        app:materialIconColor="@color/colorAccent" />
+
+    <net.steamcrafted.materialiconlib.MaterialIconView
+        android:id="@+id/miv_added_to_cart"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="end"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:materialIcon="cart"
+        app:materialIconColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/deal" />
+
+    <TextView
+        android:id="@+id/tv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Brand" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/BoldText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Product Name" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/BoldText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Product Name" />
+
+    <RatingBar
+        android:id="@+id/rb_rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:rating="4.5" />
+
+</LinearLayout>

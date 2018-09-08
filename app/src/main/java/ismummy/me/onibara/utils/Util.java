@@ -70,7 +70,7 @@ public class Util {
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
-    public static String getNairaUnitFormat(String amount) {
+    public static String getNairaUnitFormat(double amount) {
         String amounts = amount + "D";
         NumberFormat format = NumberFormat.getCurrencyInstance(Locale.CANADA);
         String currency = format.format(Double.parseDouble(amounts));
@@ -78,7 +78,7 @@ public class Util {
     }
 
     private static String getNaira() {
-        return "#";//MainApplication.getInstance().getString(R.string.naira);
+        return MainApplication.getInstance().getString(R.string.naira);
     }
 
 

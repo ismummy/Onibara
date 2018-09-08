@@ -1,5 +1,6 @@
 package ismummy.me.onibara.ui.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -55,5 +56,10 @@ public class MainActivity extends BaseActivity {
     //method to move change the current page another page from other fragment
     public void setViewPagerIndex(int viewPagerIndex) {
         viewPager.setCurrentItem(viewPagerIndex);
+    }
+
+    @OnClick(R.id.miv_search)
+    void searchClick(){
+        startActivity(new Intent(this, SearchActivity.class));
     }
 }

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ProductViewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_toolbar"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/miv_search"
+                    android:layout_toStartOf="@id/miv_search"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/app_name"
+                    android:textAllCaps="true" />
+
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/miv_search"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/ibv_cart"
+                    android:layout_toStartOf="@+id/ibv_cart"
+                    android:padding="8dp"
+                    app:materialIcon="magnify"
+                    app:materialIconColor="@color/white" />
+
+                <FrameLayout
+                    android:id="@+id/ibv_cart"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:padding="8dp"
+                        app:materialIcon="cart"
+                        app:materialIconColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_barge"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="top|end"
+                        android:background="@drawable/big_circle"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <!--<ru.nikartm.support.ImageBadgeView
+                    android:id="@+id/ibv_cart3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_action_cart"
+                    app:ibv_badgeColor="@color/colorAccent"
+                    app:ibv_badgeLimitValue="false"
+                    app:ibv_badgeTextColor="#ffffff"
+                    app:ibv_badgeTextSize="10sp"
+                    app:ibv_badgeTextStyle="bold"
+                    app:ibv_badgeValue="0"
+                    app:ibv_fixedBadgeRadius="10dp" />-->
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_add_to_cart">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tv_brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="brand" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/BoldText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="brand" />
+
+                    <ImageView
+                        android:id="@+id/iv_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@color/white"
+                        android:src="@drawable/deal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        style="@style/BoldText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="brand" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider" />
+
+                    <RatingBar
+                        android:id="@+id/rb_rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:rating="4.5" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/BoldText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:padding="16dp"
+                    android:singleLine="true"
+                    android:text="DESCRIPTION" />
+
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:padding="16dp"
+                    android:singleLine="true"
+                    android:text="DESCRIPTION" />
+
+                <TextView
+                    style="@style/BoldText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:padding="16dp"
+                    android:singleLine="true"
+                    android:text="Merchant Info" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tv_merchant_name"
+                        style="@style/BoldText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="brand" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider" />
+
+                    <TextView
+                        android:id="@+id/tv_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="brand" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:id="@+id/tv_merchant_city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="brand" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1">
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center"
+                                android:background="@color/divider" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tv_merchant_area"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="brand" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <RelativeLayout
+            android:id="@+id/btn_add_to_cart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent">
+
+            <TextView
+                style="@style/BoldText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/miv"
+                android:layout_toStartOf="@id/miv"
+                android:gravity="center"
+                android:text="Add To Cart"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/miv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                app:materialIcon="cart_plus"
+                app:materialIconColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

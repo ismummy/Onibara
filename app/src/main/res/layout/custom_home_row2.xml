@@ -46,7 +46,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout_household"
+            android:id="@+id/layout_men_shoe"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
@@ -81,7 +81,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout_formen"
+            android:id="@+id/layout_men_clothing"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
@@ -156,7 +156,7 @@
         android:weightSum="3">
 
         <LinearLayout
-            android:id="@+id/layout_hair"
+            android:id="@+id/layout_women_cloth"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
@@ -226,7 +226,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout_formen"
+            android:id="@+id/layout_women_shoe"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
